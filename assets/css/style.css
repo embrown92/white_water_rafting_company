@@ -116,7 +116,7 @@ main {
 }
 
 .icon {
-    width: 10%;
+    width: 20%;
 }
 
 footer {
@@ -125,7 +125,7 @@ footer {
 }
 
 .social {
-    
+    width: auto;
 }
 
 footer a {
