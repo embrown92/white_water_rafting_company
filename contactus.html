@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/contact_style.css">
+
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <div id="content">
+
+        <!-- Header and Nav Section-->
+        <header>
+            <a href="index.html" id="logo-link">
+                <img class="logo" src="./assets/images/logo_small.png" alt="White Water Rafting Company logo" />
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="rivers.html" target="_blank">Rivers</a>
+                <a href="./site_plan/site-plan-index.html" target="_blank">Site Plan</a>
+                <a href="about.html" target="_blank">About Us</a>
+            </nav>
+        </header>
+
+        <!--Main Section-->
+        <main>
+            <h2>Contact Us</h2>
+            <div id="feedback"></div>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name" />
+                    </li>
+                    <li>
+                        <label for="mail">Email:</label>
+                        <input type="email" id="mail" name="user_mail" />
+                    </li>
+                    <li>
+                        <label for="msg">Message:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                    <li class="button">
+                        <button type="submit">Send your message</button>
+                    </li>
+                </ul>
+            </form>
+        </main>
+
+        <!--Footer Section-->
+        <footer>
+            <p>White Water Rafting Company &copy; 2023 - Mae Brown</p>
+            <p>
+                <a href="./site_plan/site-plan-index.html" target="_blank">Site Plan</a>
+            </p>
+            <p>
+                <a href="./contact-us/contactus.html" target="_blank">Contact Us</a>
+            </p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="./assets/images/facebook.png" alt="fb icon" />
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="./assets/images/twitter.png" alt="twitter icon" />
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="./assets/images/instagram.png" alt="instagram icon" />
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./assets/js/contact_script.js"></script>
+
+</body>
+
+</html>
